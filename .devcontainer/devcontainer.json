@@ -2,8 +2,6 @@
 	"name": "Python 3",
 	"context": "..",
 	"dockerFile": "Dockerfile",
-	"workspaceMount": "source=remote-workspace,target=/workspace,type=volume",
-	"workspaceFolder": "/workspace2",
 
 	// Use 'settings' to set *default* container specific settings.json values on container create. 
 	// You can edit these settings after create using File > Preferences > Settings > Remote.
@@ -23,7 +21,7 @@
 	"postCreateCommand": "pip install -r requirements.txt",
 
 	// Comment out next line to run as root
-	// "remoteUser": "vscode",
+	"remoteUser": "vscode",
 
 	// Add the IDs of extensions you want installed when the container is created in the array below.
 	"extensions": [
