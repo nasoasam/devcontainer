@@ -1,5 +1,5 @@
 {
-    "docker.host":"tcp://192.168.11.15:12376",
-    "docker.certPath": "D:/.docker",
-    "docker.tlsVerify": "1"
+//    "docker.host":"tcp://192.168.11.15:12376",
+//    "docker.certPath": "D:/.docker",
+//    "docker.tlsVerify": "1"
 }
